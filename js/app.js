@@ -7,4 +7,14 @@ $(document).ready(function(){
       $(".sticky").removeClass("stickyadd");
     }
   })
-})
+
+  var typed = new Typed(".element",{
+    strings: ["Kitti Szabo", "a Computer Engineer"],
+    smartBackspace: true,
+    typeSpeed: 100,
+    backspeed: 100,
+    loop: true,
+    loopCount: Infinity,
+    startDelay: 1000
+  });
+});
