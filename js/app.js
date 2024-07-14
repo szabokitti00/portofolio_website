@@ -9,7 +9,7 @@ $(document).ready(function(){
   })
 
   var typed = new Typed(".element",{
-    strings: ["Kitti Szabo", "a Computer Engineer"],
+    strings: ["Jane Doe", "a Computer Engineer"],
     smartBackspace: true,
     typeSpeed: 100,
     backspeed: 100,
