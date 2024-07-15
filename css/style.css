@@ -199,3 +199,34 @@ header{
   text-align: center;
 }
 
+/* Footer */
+
+footer{
+  height: 150px;
+  background-color: #333333;
+}
+
+footer .r-icon a{
+  font-size: 20px;
+  height: 42px;
+  width: 42px;
+  color: #848484;
+  display: inline-block;
+  padding: 6px;
+  border: 1px solid #848484;
+  border-radius: 50%;
+  text-align: center;
+}
+
+footer .r-icon a:hover{
+  border: 1px solid #eee;
+  color: #eee;
+  transition: .5s all;
+}
+
+footer p.text-muted {
+  font-size: 14px;
+  color: #ccc !important;
+  margin-top: 10px;
+  margin-bottom: 0rem !important;
+}
