@@ -20,7 +20,7 @@ $(document).ready(function(){
 
 // progress bars
 var waypoint = new Waypoint({
-  element: document.getElementById('exp-id'),
+  element: document.getElementById('exp'),
   handler: function() {
     var p = document.querySelectorAll('.progress-bar');
     p[0].setAttribute("style", "width:80%;transition:1s all");
