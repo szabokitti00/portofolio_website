@@ -31,7 +31,11 @@ var waypoint = new Waypoint({
     p[5].setAttribute("style", "width:75%;transition:2.5s all");
   },
   offset:'90%'
-})
+});
+
+var filterizd = $('.filter-container').filterizr({
+  animationDuration: .5,
+});
 
 
 

@@ -16,8 +16,8 @@ p{
 }
 
 .r-p{
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .bg-sec{
@@ -178,4 +178,11 @@ header{
   width: 40px;
   margin: 15px auto;
   background: #e65f78;
+}
+
+/* Work */
+
+.work .card-wrapper{
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
