@@ -20,6 +20,10 @@ p{
   padding-bottom: 80px;
 }
 
+.bg-sec{
+  background: #f8f9fa
+}
+
 /* Navigation */
 
 nav.r-nav{
@@ -153,4 +157,25 @@ header{
 .exp-class label{
   font-size: 20px;
   margin: 10px;
+}
+
+/* Services */
+
+.card, .card-header{
+  background: #f8f9fa !important;
+}
+
+.card-header{
+  border: none !important;
+}
+
+.services-class .card-header{
+  font-size: 50px;
+}
+
+.service-border{
+  height: 2px;
+  width: 40px;
+  margin: 15px auto;
+  background: #e65f78;
 }
