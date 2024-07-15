@@ -24,6 +24,12 @@ p{
   background: #f8f9fa
 }
 
+.r-btn{
+  padding: 5px 20px;
+  background-color: #ee8683;
+  color: #fff;
+}
+
 /* Navigation */
 
 nav.r-nav{
@@ -186,3 +192,10 @@ header{
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+/* Contact Me */
+.contact .r-icon{
+  font-size: 15px;
+  text-align: center;
+}
+
